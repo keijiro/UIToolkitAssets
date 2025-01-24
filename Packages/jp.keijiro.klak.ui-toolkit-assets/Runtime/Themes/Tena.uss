@@ -130,3 +130,7 @@
     -unity-font-definition: url("project://database/Packages/jp.keijiro.klak.ui-toolkit-assets/Runtime/Fonts/Inter/static/Inter_18pt-Bold.ttf?fileID=12800000&guid=f84973951da7d4d5e858d2e8c9a1edb6&type=3#Inter_18pt-Bold");
     font-size: 14px;
 }
+
+.unity-base-field__label--with-dragger {
+    cursor: url("project://database/Packages/jp.keijiro.klak.ui-toolkit-assets/Runtime/Textures/SlideCursor.png?fileID=2800000&guid=81c13d2e6280343cc9d75a5925a3b5b8&type=3#SlideCursor") 16 16;
+}
