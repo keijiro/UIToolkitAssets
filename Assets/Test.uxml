@@ -1,6 +1,6 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/Flat.uss?fileID=7433441132597879392&amp;guid=2bbbc33e8b2834f0ab25f4d4ef52c082&amp;type=3#Flat" />
-    <engine:VisualElement name="Container" style="margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; background-color: rgba(44, 44, 44, 0.95); border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;">
+    <Style src="project://database/Packages/jp.keijiro.tena-uss/Runtime/Tena.uss?fileID=7433441132597879392&amp;guid=2bbbc33e8b2834f0ab25f4d4ef52c082&amp;type=3#Tena" />
+    <engine:VisualElement name="Container" style="margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; background-color: rgba(44, 44, 44, 0.95); border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; flex-grow: 1;">
         <engine:Label text="Sample Settings" class="header-label" />
         <engine:VisualElement style="flex-direction: row;">
             <engine:IntegerField label="Integer 1" value="1000" />
@@ -10,9 +10,12 @@
             <engine:FloatField label="Float 1" value="3.4352" name="FloatField" />
             <engine:FloatField label="Float 2" />
         </engine:VisualElement>
-        <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+        <engine:VisualElement style="flex-direction: row;">
             <engine:Toggle label="Toggle" />
         </engine:VisualElement>
+        <Klak.UIToolkit.AspectRatioElement width="1024" height="1024" style="flex-grow: 1; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+            <engine:VisualElement style="flex-grow: 1; background-color: rgba(152, 44, 44, 0.25); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;" />
+        </Klak.UIToolkit.AspectRatioElement>
         <engine:VisualElement style="flex-direction: row; justify-content: center;">
             <engine:Button text="Done" />
             <engine:Button text="Cancel" />
