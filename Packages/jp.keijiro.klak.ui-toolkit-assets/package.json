@@ -1,11 +1,11 @@
 {
     "author": "Keijiro Takahashi",
     "dependencies": { "com.unity.modules.uielements": "1.0.0" },
-    "description": "Tena UI design theme for UI Toolkit.",
-    "displayName": "Tena USS",
+    "description": "Asset library for UI Toolkit.",
+    "displayName": "UI Toolkit Assets",
     "keywords": [ "unity" ],
     "license": "Unlicense",
-    "name": "jp.keijiro.tena-uss",
+    "name": "jp.keijiro.klak.ui-toolkit-assets",
     "unity": "6000.0",
     "unityRelease": "0f1",
     "version": "1.0.0"

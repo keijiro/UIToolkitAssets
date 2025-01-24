@@ -1,5 +1,5 @@
 .unity-text-element {
-    -unity-font-definition: url("project://database/Packages/jp.keijiro.tena-uss/Runtime/Inter/static/Inter_18pt-Light.ttf?fileID=12800000&guid=b4cdd61aae027485b892e89d6a6c24be&type=3#Inter_18pt-Light");
+    -unity-font-definition: url("project://database/Packages/jp.keijiro.klak.ui-toolkit-assets/Runtime/Fonts/Inter/static/Inter_18pt-Light.ttf?fileID=12800000&guid=b4cdd61aae027485b892e89d6a6c24be&type=3#Inter_18pt-Light");
     color: rgb(214, 214, 214);
     font-size: 11px;
 }
@@ -59,7 +59,7 @@
 }
 
 .unity-text-element__selectable {
-    -unity-font-definition: url("project://database/Packages/jp.keijiro.tena-uss/Runtime/Inter/static/Inter_18pt-Bold.ttf?fileID=12800000&guid=f84973951da7d4d5e858d2e8c9a1edb6&type=3#Inter_18pt-Bold");
+    -unity-font-definition: url("project://database/Packages/jp.keijiro.klak.ui-toolkit-assets/Runtime/Fonts/Inter/static/Inter_18pt-Bold.ttf?fileID=12800000&guid=f84973951da7d4d5e858d2e8c9a1edb6&type=3#Inter_18pt-Bold");
     padding-top: 5px;
     padding-right: 5px;
     padding-bottom: 5px;
@@ -95,7 +95,7 @@
     border-bottom-width: 0;
     border-left-width: 0;
     background-color: rgba(0, 0, 0, 0);
-    -unity-font-definition: url("project://database/Packages/jp.keijiro.tena-uss/Runtime/Inter/static/Inter_18pt-Bold.ttf?fileID=12800000&guid=f84973951da7d4d5e858d2e8c9a1edb6&type=3#Inter_18pt-Bold");
+    -unity-font-definition: url("project://database/Packages/jp.keijiro.klak.ui-toolkit-assets/Runtime/Fonts/Inter/static/Inter_18pt-Bold.ttf?fileID=12800000&guid=f84973951da7d4d5e858d2e8c9a1edb6&type=3#Inter_18pt-Bold");
     font-size: 12px;
     margin-top: 4px;
     margin-right: 4px;
@@ -127,6 +127,6 @@
 }
 
 .header-label {
-    -unity-font-definition: url("project://database/Packages/jp.keijiro.tena-uss/Runtime/Inter/static/Inter_18pt-Bold.ttf?fileID=12800000&guid=f84973951da7d4d5e858d2e8c9a1edb6&type=3#Inter_18pt-Bold");
+    -unity-font-definition: url("project://database/Packages/jp.keijiro.klak.ui-toolkit-assets/Runtime/Fonts/Inter/static/Inter_18pt-Bold.ttf?fileID=12800000&guid=f84973951da7d4d5e858d2e8c9a1edb6&type=3#Inter_18pt-Bold");
     font-size: 14px;
 }

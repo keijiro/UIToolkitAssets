@@ -141,8 +141,8 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
-    "jp.keijiro.tena-uss": {
-      "version": "file:jp.keijiro.tena-uss",
+    "jp.keijiro.klak.ui-toolkit-assets": {
+      "version": "file:jp.keijiro.klak.ui-toolkit-assets",
       "depth": 0,
       "source": "embedded",
       "dependencies": {
