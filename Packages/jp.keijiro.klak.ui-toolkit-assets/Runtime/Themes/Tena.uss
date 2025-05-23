@@ -134,3 +134,26 @@
 .unity-base-field__label--with-dragger {
     cursor: url("project://database/Packages/jp.keijiro.klak.ui-toolkit-assets/Runtime/Textures/SlideCursor.png?fileID=2800000&guid=81c13d2e6280343cc9d75a5925a3b5b8&type=3#SlideCursor") 16 16;
 }
+
+.unity-base-popup-field {
+    border-color: rgb(214, 214, 214);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.unity-base-popup-field__label {
+    display: none;
+}
+
+.unity-base-popup-field__input {
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+    margin-top: 0;
+    margin-right: 16px;
+    margin-bottom: 0;
+    margin-left: 8px;
+    padding: 0;
+}
+
+.unity-base-popup-field__arrow {
+    -unity-background-image-tint-color: rgb(214, 214, 214);
+}
