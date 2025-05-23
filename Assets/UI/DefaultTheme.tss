@@ -1,2 +1,4 @@
 @import url("unity-theme://default");
+
+@import url("/Packages/jp.keijiro.klak.ui-toolkit-assets/Runtime/Themes/Tena.uss");
 VisualElement {}

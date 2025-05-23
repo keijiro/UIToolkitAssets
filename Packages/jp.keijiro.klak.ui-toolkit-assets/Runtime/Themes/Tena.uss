@@ -6,31 +6,16 @@
 
 .unity-base-field {
     background-color: rgb(53, 53, 53);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    margin-top: 4px;
-    margin-right: 4px;
-    margin-bottom: 4px;
-    margin-left: 4px;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-bottom-width: 1px;
-    border-left-width: 1px;
-    border-left-color: rgb(53, 53, 53);
-    border-right-color: rgb(53, 53, 53);
-    border-top-color: rgb(53, 53, 53);
-    border-bottom-color: rgb(53, 53, 53);
+    border-radius: 5px;
+    margin: 4px;
+    border-width: 1px;
+    border-color: rgb(53, 53, 53);
     width: 150px;
     --unity-cursor-color: rgb(180, 180, 180);
 }
 
 .unity-base-field:hover {
-    border-left-color: rgb(91, 91, 91);
-    border-right-color: rgb(91, 91, 91);
-    border-top-color: rgb(91, 91, 91);
-    border-bottom-color: rgb(91, 91, 91);
+    border-color: rgb(91, 91, 91);
 }
 
 .unity-base-field__label {
@@ -39,87 +24,48 @@
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 8px;
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0;
+    padding: 0;
     -unity-text-align: middle-left;
 }
 
 .unity-base-text-field__input {
     background-color: rgba(0, 0, 0, 0);
-    border-top-width: 0;
-    border-right-width: 0;
-    border-bottom-width: 0;
-    border-left-width: 0;
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0;
+    border-width: 0;
+    padding: 0;
 }
 
 .unity-text-element__selectable {
     -unity-font-definition: url("project://database/Packages/jp.keijiro.klak.ui-toolkit-assets/Runtime/Fonts/Inter/static/Inter_18pt-Bold.ttf?fileID=12800000&guid=f84973951da7d4d5e858d2e8c9a1edb6&type=3#Inter_18pt-Bold");
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
+    padding: 5px;
 }
 
 .unity-toggle__checkmark {
     height: 16px;
     width: 16px;
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    margin-left: 5px;
+    margin: 5px;
     background-color: rgba(0, 0, 0, 0);
-    border-top-width: 1.5px;
-    border-right-width: 1.5px;
-    border-bottom-width: 1.5px;
-    border-left-width: 1.5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-width: 1.5px;
+    border-radius: 5px;
     -unity-background-image-tint-color: rgb(128, 128, 128);
-    border-left-color: rgb(128, 128, 128);
-    border-right-color: rgb(128, 128, 128);
-    border-top-color: rgb(128, 128, 128);
-    border-bottom-color: rgb(128, 128, 128);
+    border-color: rgb(128, 128, 128);
 }
 
 .unity-button {
-    border-top-width: 0;
-    border-right-width: 0;
-    border-bottom-width: 0;
-    border-left-width: 0;
+    border-width: 0;
     background-color: rgba(0, 0, 0, 0);
     -unity-font-definition: url("project://database/Packages/jp.keijiro.klak.ui-toolkit-assets/Runtime/Fonts/Inter/static/Inter_18pt-Bold.ttf?fileID=12800000&guid=f84973951da7d4d5e858d2e8c9a1edb6&type=3#Inter_18pt-Bold");
     font-size: 12px;
-    margin-top: 4px;
-    margin-right: 4px;
-    margin-bottom: 4px;
-    margin-left: 4px;
-    padding-top: 8px;
-    padding-right: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
+    margin: 4px;
+    padding: 8px;
 }
 
 .unity-button:hover {
     background-color: rgb(63, 63, 63);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 5px;
 }
 
 .unity-base-field:focus {
-    border-left-color: rgb(41, 117, 185);
-    border-right-color: rgb(41, 117, 185);
-    border-top-color: rgb(41, 117, 185);
-    border-bottom-color: rgb(41, 117, 185);
+    border-color: rgb(41, 117, 185);
 }
 
 .unity-button:active {
@@ -136,7 +82,7 @@
 }
 
 .unity-base-popup-field {
-    border-color: rgb(214, 214, 214);
+    border-color: rgb(128, 128, 128);
     background-color: rgba(0, 0, 0, 0);
 }
 
@@ -154,6 +100,30 @@
     padding: 0;
 }
 
+.unity-popup-field__input:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
 .unity-base-popup-field__arrow {
     -unity-background-image-tint-color: rgb(214, 214, 214);
+}
+
+.unity-base-popup-field:hover:enabled > .unity-base-popup-field__input {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.unity-base-popup-field:active:enabled > .unity-base-popup-field__input {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.unity-base-dropdown__container-outer {
+    border-radius: 5px;
+}
+
+.unity-base-dropdown__container-inner {
+    background-color: rgb(53, 53, 53);
+}
+
+.unity-base-dropdown__checkmark {
+    align-self: center;
 }
