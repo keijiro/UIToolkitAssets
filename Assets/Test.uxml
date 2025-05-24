@@ -4,9 +4,9 @@
         <engine:Label text="Sample Settings" class="header-label" />
         <engine:VisualElement style="flex-direction: row; flex-wrap: wrap;">
             <engine:IntegerField label="Integer 1" value="1000" />
-            <engine:IntegerField label="Integer 2" />
+            <Klak.UIToolkit.ClampedIntegerField label="Integer 2" low-value="-2" high-value="33" />
             <engine:FloatField label="Float 1" value="3.4352" />
-            <engine:FloatField label="Float 2" />
+            <Klak.UIToolkit.ClampedFloatField label="Float 2" low-value="-3.14" high-value="3.14" />
             <engine:Toggle label="Toggle" />
             <engine:DropdownField label="Hide" choices="Item 1,Item 2,Item 3" index="1" />
         </engine:VisualElement>
